@@ -1,0 +1,15 @@
+extends ./parent.jade
+
+block h1
+    h1 Homepage
+    
+block banner
+    section(id="banner")
+        img(src="http://www.visioncomms.net/wp-content/uploads/2013/10/web-banner.jpg" alt="banner" style="width:1135px;height:150px")
+
+block article
+    include ./includes/articledata1.jade
+    
+    include ./includes/articledata2.jade
+    
+    include ./includes/articledata3.jade

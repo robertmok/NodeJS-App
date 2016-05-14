@@ -1,0 +1,17 @@
+doctype html
+html(lang="en")
+    include ./includes/head.jade
+    
+    body
+        div(class="container")
+            block h1
+                h1 Default
+                
+            include ./includes/navigation.jade
+            
+            block banner
+            
+            include ./includes/article.jade
+            block article
+            
+            include ./includes/footer.jade

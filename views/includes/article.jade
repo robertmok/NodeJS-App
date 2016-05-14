@@ -1,0 +1,13 @@
+mixin article(titlename, link, imglink)
+    section
+        div(class="row")
+            div(class="col-md-6")
+                a(href= link class="thumbnail")
+                    center
+                        h3= titlename
+                
+                        img(src= imglink alt="titlename" style="width:200px;height:200px")
+        
+            div(class="col-md-6")
+                if block 
+                    block

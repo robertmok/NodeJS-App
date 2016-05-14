@@ -1,0 +1,36 @@
+#banner
+{
+    margin-bottom: 20px;
+}
+
+.navbar-inverse .navbar-nav > .active
+{
+    color: black;
+    background: white;
+    font-weight: bold;
+}
+ 
+.navbar-inverse .navbar-nav > .active > a
+{
+    color: black;
+    background: white;
+}
+
+.navbar-inverse .navbar-brand
+{
+    color: yellow;
+}
+
+#footname
+{
+    display: inline-block;
+    margin: 10px;
+    font-weight: bold;
+    color: black;
+}
+
+#cinfo
+{
+    text-align: center;
+    margin-bottom: 20px;
+}
